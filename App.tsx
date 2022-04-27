@@ -1,15 +1,12 @@
-import React from 'react'
-import { SafeAreaView, StyleSheet } from 'react-native'
-import Home from './src/screens/Home/Home'
+import React from 'react';
 
-const App = () => {
+import { NavigationContainer } from '@react-navigation/native';
+import Routes  from './src/routes/routes.routes';
+
+export default function App() {
   return (
-    <SafeAreaView>
-      <Home />
-    </SafeAreaView>
+    <NavigationContainer>
+      <Routes/>
+    </NavigationContainer>
   )
-}
-
-const styles = StyleSheet.create({})
-
-export default App
+};

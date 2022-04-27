@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default function Home() {
-  return <Text>Bombando</Text>
+export default function Inicio() {
+  return <Text>Inicio</Text>
 }
