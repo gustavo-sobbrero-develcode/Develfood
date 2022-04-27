@@ -28,7 +28,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const Section: React.FC<{
-  title: string;
+  title: string
 }> = ({ children, title }) => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
@@ -78,8 +78,9 @@ const App = () => {
           }}
         >
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+            Edit
+            <Text style={styles.highlight}>App.tsx</Text>
+            to change this screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
