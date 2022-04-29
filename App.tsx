@@ -3,6 +3,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import Routes  from './src/routes/routes.routes';
 
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -10,3 +11,4 @@ export default function App() {
     </NavigationContainer>
   )
 };
+
